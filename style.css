@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+    font-size: larger;
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+p {
+    
+    text-indent: 100px;
+}
+
+a {
+    text-decoration: none;
+}

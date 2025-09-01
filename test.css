@@ -1,0 +1,124 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+}
+
+.header {
+    width: 100%;
+    background: linear-gradient(to right, rgb(18, 71, 92), rgb(72, 184, 194));
+    color: white;
+}
+
+.container {
+    overflow: hidden;
+    width: 50%;
+    margin: auto;
+}
+
+.header .logo {
+    float: left;
+    font-size: 30px;
+}
+
+.header .navigation {
+    float: right;
+    margin-top: 35px;
+}
+
+.header .navigation li {
+    float: left;
+    margin-left: 20px;
+    display: block;
+}
+
+.header .navigation li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.header .navigation li a:hover {
+    color: rgb(52, 69, 69);
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+section {
+    margin: 10px;
+}
+
+.parent {
+    margin-top: 20px;
+}
+
+.icon-kelas {
+    width: 200px;
+    height: 200px;
+    background-image: url(img1.avif);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.feature .header1 {
+    color: rgb(5, 112, 154);
+}
+
+/* .feature .header1 {
+    color: rgb(5, 112, 154) !important;
+} */
+
+.flash-sale {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid rgb(148, 166, 173);
+    padding: 50px;
+    /* overflow: hidden; */
+}
+
+.produk {
+    margin-left: 60px;
+    float: left;
+
+}
+
+.produk img {
+    width: 300px;
+    height: 220px;
+}
+
+.clear {
+    clear: both;
+}
+
+.sold-out {
+    opacity: 0.7;
+}
+
+
+footer {
+    background: linear-gradient(to right, rgb(18, 71, 92), rgb(72, 184, 194));
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+
+footer .left {
+    float: left;
+}
+footer .right {
+    float: right;
+}
+
+.header .left {
+    float: left;
+    font-size: 30px;
+}
+
+.header .navigation {
+    float: right;
+    margin-top: 35px;
+}
+

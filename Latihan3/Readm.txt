@@ -1,0 +1,10 @@
+1. Membuat Portopolio menggunakan boostrap
+   Tampilkan 6 card dalam 2 baris 
+   Footer : Copyright dan media sosial (icon + akun)
+
+2. Download Git dari Website Git
+
+3. Register Github
+
+Tugas HTML CSS
+Portopolio Boostrap

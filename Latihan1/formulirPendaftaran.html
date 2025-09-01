@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+</head>
+
+<body bgcolor="fbf3b9">
+    <div align="center">
+        <a href="formulirPendaftaran.html" align="center"><b>Formulir Pendaftaran Peserta |</b></a>
+        <a href="tabelPeserta.html" align="center"><b>Tabel Peserta</b></a>
+    </div>
+    <hr>
+    <h2 align="center">
+        <font color="fdb9e5">Formulir Pendaftaran </font>
+    </h2>
+
+    <fieldset>
+
+        <legend>
+            <font color="fdb9e5">Data Pribadi</font>
+        </legend>
+        <table bgcolor="b7b1f2" width="100%">
+            <tr>
+                <td>
+                    <form action="#" method="post" background="b7b1f2">
+                        <label for="nama">Nama :</label> <br>
+                        <input type="text" name="nama"> <br><br>
+
+                        <label>Jenis Kelamin:</label> <br>
+                        <input type="radio" name="gender" value="laki"> Laki-laki
+                        <input type="radio" name="gender" value="perempuan"> Perempuan<br><br>
+
+
+                        <label for="Agama">Agama :</label> <br>
+                        <select id="Agama" name="Agama">
+                            <optgroup label="Agama Mayoritas">
+                                <option value="Islam">Islam</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Katolik">Katolik</option>
+                            </optgroup>
+                            <optgroup label="Agama Lain">
+                                <option value="Hindu">Hindu</option>
+                                <option value="Budha">Budha</option>
+                            </optgroup>
+                        </select> <br> <br>
+
+                        <label for="Tempatlahir">Tempat Lahir :</label> <br>
+                        <input type="text" name="Tempatlahir"> <br><br>
+
+                        <label>Tanggal Lahir:</label><br>
+                        <input type="date" name="date"><br><br>
+
+                        <label for="Alamat">Alamat :</label> <br>
+                        <textarea name="Alamat" id="Alamat" cols="30" rows="5"></textarea> <br>
+                    </form> <br>
+                </td>
+            </tr>
+        </table>
+    </fieldset> <br>
+    <!-- end -->
+
+    <fieldset>
+        <legend>
+            <font color="fdb9e5">Pendidikan</font>
+        </legend>
+        <table bgcolor="ffdccc" width="100%">
+            <tr>
+                <td>
+                    <form action="#" method="post" background="b7b1f2">
+                        <label for="SD">SD :</label> <br>
+                        <input type="text" name="nama">
+                        <label>Masuk:</label>
+                        <input type="date" name="date">
+                        <label>Keluar:</label>
+                        <input type="date" name="date"> <br><br>
+
+                        <label for="SMP">SMP :</label><br>
+                        <input type="text" name="nama">
+                        <label>Masuk:</label>
+                        <input type="date" name="date">
+                        <label>Keluar:</label>
+                        <input type="date" name="date"> <br><br>
+
+                        <label for="SMA">SMA :</label><br>
+                        <input type="text" name="nama">
+                        <label>Masuk:</label>
+                        <input type="date" name="date">
+                        <label>Keluar:</label>
+                        <input type="date" name="date"> <br><br>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </fieldset> <br>
+
+    <fieldset>
+        <legend>
+            <font color="fdb9e5">Pelatihan</font>
+        </legend>
+        <table bgcolor="b7b1f2" width="100%">
+            <tr>
+                <td>
+                    <form action="#" method="post" background="b7b1f2">
+                        <label>Minat:</label> <br>
+                        <input type="checkbox" name="checkbox1">HTML
+                        <input type="checkbox" name="checkbox2">CSS
+                        <input type="checkbox" name="checkbox2">JavaScript
+                        <input type="checkbox" name="checkbox2">PHP <br><br>
+
+                        <label>Kompetensi:</label> <br>
+                        <input type="checkbox" name="checkbox1">HTML
+                        <input type="checkbox" name="checkbox2">CSS
+                        <input type="checkbox" name="checkbox2">JavaScript
+                        <input type="checkbox" name="checkbox2">PHP <br><br>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </fieldset> <br><br>
+
+    <fieldset>
+        <legend>
+            <font color="fdb9e5">Pilihan Jurusan</font>
+        </legend>
+        <table bgcolor="ffdccc" width="100%">
+            <tr>
+                <td>
+                    <form action="#" method="post" background="b7b1f2">
+                        <select id="Jurusan" name="Jurusan">
+                            <optgroup label="Teknik">
+                                <option value="Teknik Informatika">Teknik Informatika</option>
+                                <option value="Teknik Elektro">Teknik Elektro</option>
+                                <option value="Teknik Industri">Teknik Industri</option>
+                                <option value="Teknik Sipil">Teknik Sipil</option>
+                            </optgroup>
+                            <optgroup label="Ekonomi">
+                                <option value="Akuntansi">Akuntansi</option>
+                                <option value="Manajemen">Manajemen</option>
+                                <option value="Perbankan">Perbankan</option>
+                                <option value="Bisnis Digital">Bisnis Digital</option>
+                            </optgroup>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+</body>
+
+</html>
